@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>highPerformance</title>
+    <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- رأس الصفحة -->
+    <header class="header" dir="rtl">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <a href="#" class="logo"><span>high</span>performance</a>
+      <nav class="navbar">
+        <a href="#home">الرئيسية</a>
+        <a href="#vehicles">السيارات</a>
+        <a href="#services">خدماتنا</a>
+        <a href="#featured">سيارات متميزة</a>
+        <a href="#contact">التواصل</a>
+      </nav>
+      <div id="login-btn">
+        <button class="btn">تسجيل الدخول</button>
+        <i class="far fa-user"></i>
+      </div>
+    </header>
+    <!-- نموذج التسجيل -->
+    <div class="login-form-container">
+      <span id="close-login-form" class="fas fa-times"> </span>
+      <form>
+        <h3>دخول المستخدم</h3>
+        <input type="email" placeholder="الايميل" class="box" />
+        <input type="password" placeholder="كلمة السر" class="box" />
+        <p>نسيت كلمة السر <a href="#">إضغط هنا</a></p>
+        <input type="submit" value="سجل الأن" class="btn" />
+        <p>أو سجل باستخدام</p>
+        <div class="buttons">
+          <a href="#" class="btn">حوجل</a>
+          <a href="#" class="btn">فيسبوك</a>
+        </div>
+        <p>ليس لديك حساب <a href="#">أنشأ واحدًا</a></p>
+      </form>
+    </div>
+    <!-- home section -->
+    <section class="home" id="home">
+      <h1 class="home-parallax" data-speed="-2">ابحث عن سيارتك</h1>
+      <img class="home-parallax" data-speed="5" src="images/home-img.png" />
+      <a href="#" class="btn home-parallax" data-speed="7">استكشف السيارات</a>
+    </section>
+    <!-- أيقونات -->
+    <section class="icons-container">
+      <div class="icons">
+        <i class="fas fa-home"></i>
+        <div class="content">
+          <h3>170+</h3>
+          <p>فرع</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>3990+</h3>
+          <p>سيارة مباعة</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-users"></i>
+        <div class="content">
+          <h3>790+</h3>
+          <p>عميل سعيد</p>
+        </div>
+      </div>
+
+      <div class="icons">
+        <i class="fas fa-car"></i>
+        <div class="content">
+          <h3>730+</h3>
+          <p>سيارة جديدة</p>
+        </div>
+      </div>
+    </section>
+    <!-- vehicles section -->
+    <sction id="vehicles" class="vehicles">
+      <h1 class="heading">سيارات <span>شائعة</span></h1>
+      <div class="swiper vehicles-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/vehicle-1.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/vehicle-2.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/vehicle-3.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/vehicle-4.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/vehicle-5.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <img src="images/vehicle-6.png" alt="car" />
+            <div class="content">
+              <h3>موديل جديد</h3>
+              <div class="price"><span>price: </span> $75000/-</div>
+              <p>
+                new
+                <span class="fas fa-circle"></span> automatic
+                <span class="fas fa-circle"></span> 2021
+                <span class="fas fa-circle"></span> بنزين
+                <span class="fas fa-circle"></span> 190km/h
+              </p>
+              <a href="#" class="btn">راجع</a>
+            </div>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div class="swiper-pagination"></div>
+      </div>
+    </sction>
+    <!-- services section -->
+    <section class="services" id="services">
+      <h1 class="heading"><span> خدماتنا</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="fas fa-car"></i>
+          <h3>بيع السيارات</h3>
+          <p>
+            لدينا خدمة بيع السيارات علي مدار العام ومتوفر الشراء من خلال الأنترنت.
+          </p>
+          <a href="#" class="btn">تفاصيل أكثر</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-tools"></i>
+          <h3>قطع غيار</h3>
+          <p>
+            متوفر لدينا مختلف قطع الغيار لمعظم فئات السيارات كما يمكنك الطلب من خلال الموقع.
+          </p>
+          <a href="#" class="btn">تفاصيل أكثر</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-car-battery"></i>
+          <h3>تبديل البطارية</h3>
+          <p>
+            يوجد لدينا متخصصين يقومون بفحص البطارية وتبديلها بالبطارية المناسبة.
+          </p>
+          <a href="#" class="btn">تفاصيل أكثر</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-gas-pump"></i>
+          <h3>تبديل الزيت</h3>
+          <p>
+            نقوم بتبديل الزيت بالزيت المناسب لنوع السيارة كما نراعي أختيار أجود أنواع زيوت السيارات.
+          </p>
+          <a href="#" class="btn">تفاصيل أكثر</a>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-headset"></i>
+          <h3>دعم فني 24/7</h3>
+          <p>
+            دعم فني متوفر علي مدار الساعة لكل أيام الأسبوع.
+          </p>
+          <a href="#" class="btn">تفاصيل أكثر</a>
+        </div>
+      </div>
+    </section>
+    <!-- featuerd section -->
+    <section class="featured" id="featured">
+      <h1 class="heading">سيارات <span>متميزة</span></h1>
+      <div class="swiper featured-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="images/car-1.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-2.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-3.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-start-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-4.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-5.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-6.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="images/car-7.png" alt="car" />
+            <h3>موديل جديد</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <div class="price">$65,000/-</div>
+            <a href="#" class="btn">راجع</a>
+          </div>
+        </div>
+        <br /><br /><br />
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- newsletter section -->
+    <section class="newsletter">
+      <h3>اشترك للحصول على آخر التحديثات</h3>
+      <p>
+        أشترك في القائمة البريدية ليصلك أحدث الأخبار و تحديثات الموقع لتتعرف علي السيارات الجديدة وجديد قطع الغيار ومتابعة الخصومات والعروض المتميزة.
+      </p>
+      <form>
+        <input type="email" placeholder="أدخل ايميلك" />
+        <input type="submit" value="إرسال" class="subscribe" />
+      </form>
+    </section>
+    <!-- contact section -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>تواصل معنا </span></h1>
+    <div class="row">
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52948.769437213654!2d-6.838473580019081!3d33.95917698391021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7132b7118bfbd%3A0x2f9cad14202306ec!2z2K3ZiiDYp9mE2LHZitin2LbYjCDYp9mE2LHYqNin2LfYjCDYp9mE2YXYutix2Kg!5e0!3m2!1sar!2seg!4v1633025323099!5m2!1sar!2seg"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      <form>
+        <h3>ابقى على تواصل</h3>
+        <input type="text" class="box" placeholder="الاسم">
+        <input type="email" placeholder="الايميل" class="box">
+        <input type="number" placeholder="رقم الهاتف" class="box">
+        <textarea placeholder="الرسالة" cols="30" rows="10" class="box"></textarea>
+        <input type="submit" value="أرسل" class="btn">
+      </form>
+    </div>
+    </section>
+    <!-- footer section -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>فروعنا</h3>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>مصر</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>ليبيا</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>العراق</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>الأردن</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>المغرب</a>
+        </div>
+
+        <div class="box">
+          <h3>روابط سريعة</h3>
+          <a href="#home"><i class="fas fa-arrow-right"></i>الرئيسية</a>
+          <a href="#vehicles"><i class="fas fa-arrow-right"></i>السيارات</a>
+          <a href="#services"><i class="fas fa-arrow-right"></i>خدماتنا</a>
+          <a href="#featured"><i class="fas fa-arrow-right"></i>سيارات متميزة</a>
+          <a href="#contact"><i class="fas fa-arrow-right"></i>التواصل</a>
+        </div>
+
+        <div class="box">
+          <h3>عناوين التواصل</h3>
+          <a href="#"><i class="fas fa-phone"></i>+323-567-348</a>
+          <a href="#"><i class="fas fa-phone"></i>+079-532-809</a>
+          <a href="#"><i class="fab fa-whatsapp"></i>+543-346-700</a>
+          <a href="#" class="none"><i class="fas fa-envelope"></i>contact@highPerformance.com</a>
+          <a href="#"><i class="fas fa-map-marker-alt"></i>Rabat , Morocoo - 003424 </a>
+        </div>
+
+        <div class="box">
+          <h3>حسابتنا</h3>
+          <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+          <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+          <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+          <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+          <a href="#"><i class="fab fa-pinterest"></i>Pinterest</a>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
